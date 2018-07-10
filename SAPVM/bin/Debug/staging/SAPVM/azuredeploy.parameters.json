@@ -1,0 +1,37 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "capadmin"
+    },
+    "vmName": {
+      "value": "SuseVM"
+    },
+    "adminPassword": {
+      "value": "Welcome12345"
+    },
+    "vmSize": {
+      "value": "Standard_DS12_v2"
+    },
+
+    "storageAccountType": {
+      "value": "Premium_LRS"
+    },
+      "existingdiagnosticsStorageAccountName": {
+        "value": "rodea"
+      },
+      "existingdiagnosticsStorageResourceGroup": {
+        "value": "EnterpriseAcct"
+      },
+      "virtualNetworkName": {
+        "value": "CoreVnet"
+      },
+      "virtualNetworkResourceGroup": {
+        "value": "CoreNetwork"
+      },
+      "subnetName": {
+        "value": "FESubnet"
+      }
+    }
+  }
